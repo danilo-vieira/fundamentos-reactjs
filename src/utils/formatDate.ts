@@ -1,7 +1,4 @@
-const formatDate = (date: Date): string => {
-  const parsedDate = new Date(date).toLocaleDateString('pt-BR');
-
-  return parsedDate;
-};
+const formatDate = (date: Date): string =>
+  new Date(date).toLocaleDateString('pt-BR');
 
 export default formatDate;
